@@ -1,0 +1,50 @@
+.body {
+    background-color: #222;
+    font-family: 'Press Start 2P', cursive;
+    color: #fff;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+#canvas-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: #000;
+}
+
+.game-over {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #ff0000;
+    font-size: 48px;
+    text-shadow: 2px 2px #000;
+}
+
+#stamina-bar, #hunger-bar {
+    background-color: #555;
+    border-radius: 5px;
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+#stamina-bar-inner, #hunger-bar-inner {
+    height: 100%;
+    border-radius: 5px;
+}
+
+#stamina-bar-inner {
+    background-color: #0f0;
+}
+
+#hunger-bar-inner {
+    background-color: #ff0;
+}
